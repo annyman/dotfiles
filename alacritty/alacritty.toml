@@ -1,0 +1,17 @@
+
+import = [ "~/.config/alacritty/themes/themes/ayu_dark.toml" ]
+
+[window]
+
+padding = { x = 10, y = 10}
+opacity = 0.85
+blur = true
+
+[font]
+
+normal = { family = "Mononoki Nerd Font Mono", style = "Regular" }
+size = 16
+
+[cursor]
+style = { shape = "Block", blinking = "On"}
+unfocused_hollow = true

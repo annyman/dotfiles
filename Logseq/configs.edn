@@ -1,0 +1,1 @@
+{:git/disable-auto-commit? true, :git/auto-commit-seconds 300, :git/commit-on-close? true}

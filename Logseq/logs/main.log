@@ -1,0 +1,149 @@
+[2024-06-21 09:59:45.294] [info] Logseq App(0.10.9) Starting... 
+[2024-06-21 09:59:45.300] [info] restore proxy settings {:type "system"}
+[2024-06-21 09:59:45.300] [info] set proxy to {:type "system"}
+[2024-06-21 09:59:47.921] [debug] :electron.handler/watch-dir {:path "/home/anny/.logseq/config"}
+[2024-06-21 10:01:57.482] [info] :electron.git/set-auto-commit-interval 60
+[2024-06-21 10:06:46.515] [info] :electron.handler/open-dir open folder selection dialog
+[2024-06-21 10:07:01.349] [debug] :electron.handler/open-dir {:path "/home/anny/Documents/loggy"}
+[2024-06-21 10:07:01.556] [debug] :electron.handler/watch-dir {:path "/home/anny/Documents/loggy"}
+[2024-06-21 12:17:04.180] [info] :electron.handler/backup backup db file logseq/config.edn
+[2024-06-21 12:17:09.964] [info] :electron.handler/backup backup db file logseq/config.edn
+[2024-06-21 12:17:13.457] [info] :electron.handler/backup backup db file logseq/config.edn
+[2024-06-21 12:17:20.744] [info] :electron.handler/backup backup db file logseq/config.edn
+[2024-06-21 12:17:23.890] [info] :electron.handler/backup backup db file logseq/config.edn
+[2024-06-21 12:17:55.536] [info] :electron.handler/backup backup db file logseq/config.edn
+[2024-06-21 12:18:00.244] [info] :electron.handler/backup backup db file logseq/config.edn
+[2024-06-21 12:18:06.727] [info] :electron.handler/backup backup db file logseq/config.edn
+[2024-06-21 12:22:42.876] [info] :electron.handler/backup backup db file logseq/config.edn
+[2024-06-21 13:04:29.748] [info] :electron.handler/unlink {:path "/home/anny/Documents/loggy/pages/Heap memory.md"}
+[2024-06-21 13:04:29.748] [debug] :electron.handler/unlink recycle to /home/anny/Documents/loggy/logseq/.recycle/pages_Heap memory.md
+[2024-06-21 13:04:29.756] [info] :electron.handler/unlink {:path "/home/anny/Documents/loggy/pages/Linked list.md"}
+[2024-06-21 13:04:29.757] [debug] :electron.handler/unlink recycle to /home/anny/Documents/loggy/logseq/.recycle/pages_Linked list.md
+[2024-06-21 13:04:29.862] [debug] :electron.fs-watcher/on-unlink {:path "/home/anny/Documents/loggy/pages/Heap memory.md"}
+[2024-06-21 13:04:29.863] [debug] :electron.fs-watcher/on-unlink {:path "/home/anny/Documents/loggy/pages/Linked list.md"}
+[2024-06-21 13:17:16.185] [debug] [Marketplace] === Installing: pengx17/logseq-plugin-tabs ===
+[2024-06-21 13:17:16.748] [debug] [Marketplace] INFO: use github api -  https://plugins.logseq.io/github/api
+[2024-06-21 13:17:17.595] [debug] [Marketplace] Release latest: https://plugins.logseq.io/github/api/repos/pengx17/logseq-plugin-tabs/releases/latest :status 200
+[2024-06-21 13:17:17.599] [debug] [Marketplace] Release latest: v1.19.4  from https://api.github.com/repos/pengx17/logseq-plugin-tabs/releases/assets/143509183
+[2024-06-21 13:17:19.097] [debug] [Marketplace] [Updated DONE] v1.19.4
+[2024-06-21 13:17:30.917] [debug] [Marketplace] === Installing: catppuccin/logseq ===
+[2024-06-21 13:17:31.397] [debug] [Marketplace] Error: Github API Failed(401) {"message":"Bad credentials","documentation_url":"https://docs.github.com/rest","status":"401"}
+    at /opt/logseq-desktop/resources/app/electron.js:14226:25
+    at Function.$G__108146__1$$ [as $cljs$core$IFn$_invoke$arity$1$] (/opt/logseq-desktop/resources/app/electron.js:4104:175)
+    at /opt/logseq-desktop/resources/app/electron.js:13064:80
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2024-06-21 13:17:31.398] [debug] [Marketplace] Error: [:release-channel-issue "Github API Failed(401) {\"message\":\"Bad credentials\",\"documentation_url\":\"https://docs.github.com/rest\",\"status\":\"401\"}"]
+    at /opt/logseq-desktop/resources/app/electron.js:14260:11
+    at /opt/logseq-desktop/resources/app/electron.js:13090:152
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2024-06-21 13:17:46.374] [debug] [Marketplace] === Installing: haydenull/logseq-plugin-markdown-table ===
+[2024-06-21 13:17:46.966] [debug] [Marketplace] Release latest: https://plugins.logseq.io/github/api/repos/haydenull/logseq-plugin-markdown-table/releases/latest :status 200
+[2024-06-21 13:17:46.969] [debug] [Marketplace] Release latest: v1.8.1  from https://api.github.com/repos/haydenull/logseq-plugin-markdown-table/releases/assets/168956113
+[2024-06-21 13:17:48.687] [debug] [Marketplace] [Updated DONE] v1.8.1
+[2024-06-21 13:18:13.687] [debug] [Marketplace] === Installing: Mat4m0/logseq-atmos-theme ===
+[2024-06-21 13:18:14.250] [debug] [Marketplace] Release latest: https://plugins.logseq.io/github/api/repos/Mat4m0/logseq-atmos-theme/releases/latest :status 200
+[2024-06-21 13:18:14.254] [debug] [Marketplace] Release latest: v.0.1.2  from null
+[2024-06-21 13:18:15.230] [debug] [Marketplace] [Updated DONE] v.0.1.2
+[2024-06-21 13:18:29.903] [debug] [Marketplace] === Installing: dale502/logseq-discord-like-dark-theme ===
+[2024-06-21 13:18:30.402] [debug] [Marketplace] ERR: valid github api -  Error: Unauthorized
+    at /opt/logseq-desktop/resources/app/electron.js:14195:13
+    at Function.$G__108146__1$$ [as $cljs$core$IFn$_invoke$arity$1$] (/opt/logseq-desktop/resources/app/electron.js:4104:175)
+    at /opt/logseq-desktop/resources/app/electron.js:13064:80
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2024-06-21 13:18:30.742] [debug] [Marketplace] Error: Github API Failed(404) {"message":"Not Found","documentation_url":"https://docs.github.com/rest/releases/releases#get-the-latest-release","status":"404"}
+    at /opt/logseq-desktop/resources/app/electron.js:14226:25
+    at Function.$G__108146__1$$ [as $cljs$core$IFn$_invoke$arity$1$] (/opt/logseq-desktop/resources/app/electron.js:4104:175)
+    at /opt/logseq-desktop/resources/app/electron.js:13064:80
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2024-06-21 13:18:30.743] [debug] [Marketplace] Error: [:release-channel-issue "Github API Failed(404) {\"message\":\"Not Found\",\"documentation_url\":\"https://docs.github.com/rest/releases/releases#get-the-latest-release\",\"status\":\"404\"}"]
+    at /opt/logseq-desktop/resources/app/electron.js:14260:11
+    at /opt/logseq-desktop/resources/app/electron.js:13090:152
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2024-06-21 13:18:35.897] [debug] [Marketplace] === Installing: blueteafrog/logseq-mocha-theme ===
+[2024-06-21 13:18:36.267] [debug] [Marketplace] Release latest: https://api.github.com/repos/blueteafrog/logseq-mocha-theme/releases/latest :status 200
+[2024-06-21 13:18:36.268] [debug] [Marketplace] Release latest: v0.1.5  from null
+[2024-06-21 13:18:37.092] [debug] [Marketplace] [Updated DONE] v0.1.5
+[2024-06-21 13:19:18.954] [info] new-window https://codesandbox.io/s/yt8jc
+[2024-06-22 16:36:26.886] [info] Logseq App(0.10.9) Starting... 
+[2024-06-22 16:36:26.896] [info] restore proxy settings {:type "system"}
+[2024-06-22 16:36:26.897] [info] set proxy to {:type "system"}
+[2024-06-22 16:36:29.956] [debug] :electron.handler/watch-dir {:path "/home/anny/.logseq/config"}
+[2024-06-22 16:36:30.011] [debug] :electron.handler/unwatch-dir {:path "/home/anny/Documents/loggy"}
+[2024-06-22 16:36:30.012] [debug] :electron.handler/watch-dir {:path "/home/anny/Documents/loggy"}
+[2024-06-22 16:36:30.685] [debug] [Marketplace] === Updating: haydenull/logseq-plugin-markdown-table ===
+[2024-06-22 16:36:31.513] [debug] [Marketplace] ERR: valid github api -  Error: Unauthorized
+    at /opt/logseq-desktop/resources/app/electron.js:14195:13
+    at Function.$G__108146__1$$ [as $cljs$core$IFn$_invoke$arity$1$] (/opt/logseq-desktop/resources/app/electron.js:4104:175)
+    at /opt/logseq-desktop/resources/app/electron.js:13064:80
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[2024-06-22 16:36:31.844] [debug] [Marketplace] Release latest: https://api.github.com/repos/haydenull/logseq-plugin-markdown-table/releases/latest :status 200
+[2024-06-22 16:36:31.849] [debug] [Marketplace] Release latest: v1.8.1  from https://api.github.com/repos/haydenull/logseq-plugin-markdown-table/releases/assets/168956113
+[2024-06-22 16:36:31.850] [debug] [Marketplace] Release compare: v1.8.1 (current) >  v1.8.1 (latest)
+[2024-06-22 16:36:31.851] [debug] [Marketplace] Update skip: no new version
+[2024-06-22 16:36:32.362] [debug] [Marketplace] === Updating: pengx17/logseq-plugin-tabs ===
+[2024-06-22 16:36:32.684] [debug] [Marketplace] Release latest: https://api.github.com/repos/pengx17/logseq-plugin-tabs/releases/latest :status 200
+[2024-06-22 16:36:32.687] [debug] [Marketplace] Release latest: v1.19.4  from https://api.github.com/repos/pengx17/logseq-plugin-tabs/releases/assets/143509183
+[2024-06-22 16:36:32.688] [debug] [Marketplace] Release compare: v1.19.4 (current) >  v1.19.4 (latest)
+[2024-06-22 16:36:32.689] [debug] [Marketplace] Update skip: no new version
+[2024-06-22 16:36:33.196] [debug] [Marketplace] === Updating: Mat4m0/logseq-atmos-theme ===
+[2024-06-22 16:36:33.528] [debug] [Marketplace] Release latest: https://api.github.com/repos/Mat4m0/logseq-atmos-theme/releases/latest :status 200
+[2024-06-22 16:36:33.531] [debug] [Marketplace] Release latest: v.0.1.2  from null
+[2024-06-22 16:36:33.532] [debug] [Marketplace] Release compare: v.0.1.2 (current) >  v.0.1.2 (latest)
+[2024-06-22 16:36:33.533] [debug] [Marketplace] Update skip: no new version
+[2024-06-22 16:36:34.040] [debug] [Marketplace] === Updating: blueteafrog/logseq-mocha-theme ===
+[2024-06-22 16:36:34.402] [debug] [Marketplace] Release latest: https://api.github.com/repos/blueteafrog/logseq-mocha-theme/releases/latest :status 200
+[2024-06-22 16:36:34.405] [debug] [Marketplace] Release latest: v0.1.5  from null
+[2024-06-22 16:36:34.406] [debug] [Marketplace] Release compare: v0.1.5 (current) >  v0.1.5 (latest)
+[2024-06-22 16:36:34.406] [debug] [Marketplace] Update skip: no new version
+[2024-06-22 16:45:38.663] [warn] :electron.fs-watcher/on-unlink-dir {:path "/home/anny/Documents/loggy/assets"}
+[2024-06-22 16:45:38.665] [warn] :electron.fs-watcher/on-unlink-dir {:path "/home/anny/Documents/loggy/journals"}
+[2024-06-22 16:45:38.666] [warn] :electron.fs-watcher/on-unlink-dir {:path "/home/anny/Documents/loggy/logseq"}
+[2024-06-22 16:45:38.667] [warn] :electron.fs-watcher/on-unlink-dir {:path "/home/anny/Documents/loggy/pages"}
+[2024-06-22 16:45:38.765] [debug] :electron.fs-watcher/on-unlink {:path "/home/anny/Documents/loggy/journals/2024_06_21.md"}
+[2024-06-22 16:45:38.766] [debug] :electron.fs-watcher/on-unlink {:path "/home/anny/Documents/loggy/logseq/config.edn"}
+[2024-06-22 16:45:38.766] [debug] :electron.fs-watcher/on-unlink {:path "/home/anny/Documents/loggy/logseq/custom.css"}
+[2024-06-22 16:45:38.767] [debug] :electron.fs-watcher/on-unlink {:path "/home/anny/Documents/loggy/pages/Arrays.md"}
+[2024-06-22 16:45:38.768] [debug] :electron.fs-watcher/on-unlink {:path "/home/anny/Documents/loggy/pages/Data Structures.md"}
+[2024-06-22 16:45:38.768] [debug] :electron.fs-watcher/on-unlink {:path "/home/anny/Documents/loggy/pages/Linked list.md"}
+[2024-06-22 16:45:38.770] [debug] :electron.fs-watcher/on-unlink {:path "/home/anny/Documents/loggy/pages/Lists.md"}
+[2024-06-22 16:45:38.771] [debug] :electron.fs-watcher/on-unlink {:path "/home/anny/Documents/loggy/pages/contents.md"}
+[2024-06-22 16:45:58.365] [info] :electron.handler/open-new-window
+[2024-06-22 16:46:01.352] [debug] :electron.handler/watch-dir {:path "/home/anny/.logseq/config"}
+[2024-06-22 16:46:01.406] [debug] :electron.handler/unwatch-dir {:path "/home/anny/Documents/loggy"}
+[2024-06-22 16:46:01.407] [debug] :electron.handler/watch-dir {:path "/home/anny/Documents/loggy"}
+[2024-06-22 16:46:39.812] [info] :electron.handler/open-dir open folder selection dialog
+[2024-06-22 16:46:47.204] [debug] :electron.handler/open-dir {:path "/home/anny/Documents/kbase"}
+[2024-06-22 16:46:47.702] [debug] :electron.handler/watch-dir {:path "/home/anny/Documents/kbase"}
+[2024-06-28 21:05:38.338] [info] Logseq App(0.10.9) Starting... 
+[2024-06-28 21:05:38.349] [info] restore proxy settings {:type "system"}
+[2024-06-28 21:05:38.350] [info] set proxy to {:type "system"}
+[2024-06-28 21:05:41.353] [debug] :electron.handler/watch-dir {:path "/home/anny/.logseq/config"}
+[2024-06-28 21:05:41.438] [debug] :electron.handler/unwatch-dir {:path "/home/anny/Documents/kbase"}
+[2024-06-28 21:05:41.439] [debug] :electron.handler/watch-dir {:path "/home/anny/Documents/kbase"}
+[2024-06-28 21:05:41.958] [debug] [Marketplace] === Updating: Mat4m0/logseq-atmos-theme ===
+[2024-06-28 21:05:42.481] [info] :electron.handler/backup backup db file pages/Linked list.md
+[2024-06-28 21:05:42.487] [debug] [Marketplace] INFO: use github api -  https://plugins.logseq.io/github/api
+[2024-06-28 21:05:43.244] [debug] [Marketplace] Release latest: https://plugins.logseq.io/github/api/repos/Mat4m0/logseq-atmos-theme/releases/latest :status 200
+[2024-06-28 21:05:43.249] [debug] [Marketplace] Release latest: v.0.1.2  from null
+[2024-06-28 21:05:43.250] [debug] [Marketplace] Release compare: v.0.1.2 (current) >  v.0.1.2 (latest)
+[2024-06-28 21:05:43.251] [debug] [Marketplace] Update skip: no new version
+[2024-06-28 21:05:43.764] [debug] [Marketplace] === Updating: pengx17/logseq-plugin-tabs ===
+[2024-06-28 21:05:44.305] [debug] [Marketplace] Release latest: https://plugins.logseq.io/github/api/repos/pengx17/logseq-plugin-tabs/releases/latest :status 200
+[2024-06-28 21:05:44.310] [debug] [Marketplace] Release latest: v1.19.4  from https://api.github.com/repos/pengx17/logseq-plugin-tabs/releases/assets/143509183
+[2024-06-28 21:05:44.311] [debug] [Marketplace] Release compare: v1.19.4 (current) >  v1.19.4 (latest)
+[2024-06-28 21:05:44.312] [debug] [Marketplace] Update skip: no new version
+[2024-06-28 21:05:44.819] [debug] [Marketplace] === Updating: haydenull/logseq-plugin-markdown-table ===
+[2024-06-28 21:05:45.402] [debug] [Marketplace] Release latest: https://plugins.logseq.io/github/api/repos/haydenull/logseq-plugin-markdown-table/releases/latest :status 200
+[2024-06-28 21:05:45.407] [debug] [Marketplace] Release latest: v1.8.1  from https://api.github.com/repos/haydenull/logseq-plugin-markdown-table/releases/assets/168956113
+[2024-06-28 21:05:45.408] [debug] [Marketplace] Release compare: v1.8.1 (current) >  v1.8.1 (latest)
+[2024-06-28 21:05:45.408] [debug] [Marketplace] Update skip: no new version
+[2024-06-28 21:05:45.915] [debug] [Marketplace] === Updating: blueteafrog/logseq-mocha-theme ===
+[2024-06-28 21:05:46.507] [debug] [Marketplace] Release latest: https://plugins.logseq.io/github/api/repos/blueteafrog/logseq-mocha-theme/releases/latest :status 200
+[2024-06-28 21:05:46.510] [debug] [Marketplace] Release latest: v0.1.5  from null
+[2024-06-28 21:05:46.511] [debug] [Marketplace] Release compare: v0.1.5 (current) >  v0.1.5 (latest)
+[2024-06-28 21:05:46.511] [debug] [Marketplace] Update skip: no new version
+[2024-06-28 23:13:32.713] [warn] :electron.fs-watcher/on-unlink-dir {:path "/home/anny/Documents/kbase/journals"}
+[2024-06-28 23:13:32.714] [warn] :electron.fs-watcher/on-unlink-dir {:path "/home/anny/Documents/kbase/logseq"}
+[2024-06-28 23:13:32.714] [warn] :electron.fs-watcher/on-unlink-dir {:path "/home/anny/Documents/kbase/pages"}
+[2024-06-28 23:13:32.811] [debug] :electron.fs-watcher/on-unlink {:path "/home/anny/Documents/kbase/logseq/config.edn"}
+[2024-06-28 23:13:32.813] [debug] :electron.fs-watcher/on-unlink {:path "/home/anny/Documents/kbase/logseq/custom.css"}
