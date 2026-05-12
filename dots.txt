@@ -1,0 +1,12 @@
+alacritty
+dunst
+fish
+flameshot
+fuzzel
+ghostty
+mango
+micro
+niri
+swaylock
+waybar
+yazi

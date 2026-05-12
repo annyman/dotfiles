@@ -1,0 +1,21 @@
+[general]
+import = [
+    "~/.config/alacritty/themes/themes/dracula.toml"
+]
+
+[window]
+opacity = 0.85
+blur = true
+padding = { x = 10, y = 10}
+
+[font]
+normal = {family = 'mononoki nerd font', style = 'regular'}
+bold = {family = 'mononoki nerd font', style = 'bold'}
+italic = {family = 'mononoki nerd font', style = 'italic'}
+size = 14.0
+
+[cursor]
+style = {shape = 'Block', blinking = 'On'}
+
+[mouse]
+hide_when_typing = true

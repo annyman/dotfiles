@@ -1,0 +1,17 @@
+# This file contains fish universal variable definitions.
+# VERSION: 3.0
+SETUVAR --export EDITOR:micro
+SETUVAR --export VISUAL:micro
+SETUVAR __fish_initialized:4300
+SETUVAR _fisher_jorgebucaran_2F_fisher_files:\x7e/\x2econfig/fish/functions/fisher\x2efish\x1e\x7e/\x2econfig/fish/completions/fisher\x2efish
+SETUVAR _fisher_plugins:jorgebucaran/fisher\x1esei40kr/fish\x2dranger\x2dcd
+SETUVAR _fisher_sei40kr_2F_fish_2D_ranger_2D_cd_files:\x7e/\x2econfig/fish/functions/ranger\x2dcd\x2efish
+SETUVAR _fisher_upgraded_to_4_4:\x1d
+SETUVAR fish_greeting:\x1d
+SETUVAR fish_user_paths:/home/anny/\x2eopencode/bin\x1e/home/anny/\x2espicetify\x1e/usr/bin
+SETUVAR spicetify:\x2e/home/anny/\x2espicetify/spicetify
+SETUVAR theme_color_scheme:dracula
+SETUVAR theme_nerd_fonts:yes
+SETUVAR theme_newline_cursor:yes
+SETUVAR theme_newline_prompt:\x24\x20
+SETUVAR theme_title_use_abbreviated_path:no

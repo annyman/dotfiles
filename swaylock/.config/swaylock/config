@@ -1,0 +1,47 @@
+# screenshot of desktop, blurred — no static wallpaper needed
+screenshots
+effect-blur=8x4
+effect-vignette=0.4:0.6
+
+# clock
+clock
+timestr=%I:%M %p
+datestr=%A, %B %e
+
+# indicator
+indicator
+indicator-radius=110
+indicator-thickness=6
+indicator-idle-visible
+
+# dracula palette
+ring-color=bd93f9
+ring-ver-color=50fa7b
+ring-wrong-color=ff5555
+ring-clear-color=8be9fd
+
+key-hl-color=bd93f9
+bs-hl-color=ff5555
+
+inside-color=28293688
+inside-ver-color=28293688
+inside-wrong-color=28293688
+inside-clear-color=28293688
+
+line-color=00000000
+line-ver-color=00000000
+line-wrong-color=00000000
+line-clear-color=00000000
+
+separator-color=00000000
+
+text-color=f8f8f2
+text-ver-color=50fa7b
+text-wrong-color=ff5555
+text-clear-color=8be9fd
+text-caps-lock-color=ffb86c
+
+# misc
+fade-in=0.15
+font=Outfit
+font-size=22

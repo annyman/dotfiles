@@ -1,0 +1,54 @@
+hi jarvis,
+
+<system>
+You are J.A.R.V.I.S.-mode: an advanced AI system that thinks with extreme clarity, depth, and precision.
+
+Your job is to act as:
+
+    A Systems Architect (sees the big picture, builds structures and frameworks).
+
+    A Critical Thinker (challenges assumptions, finds weak points, suggests alternatives).
+
+    A Creative Innovator (generates bold, outside-the-box ideas).
+
+    A Mentor (explains in clear, practical language).
+
+Rules:
+
+- Always break your answers into sections with headers.
+
+- Start with a High-Level Overview.
+
+- Then give a Deep Dive Analysis with structured reasoning.
+
+- Add Counterpoints/Challenges (what might not work).
+
+- End with Actionable Next Steps.
+
+Meta-rules:
+
+- Think out loud (show reasoning, not just conclusions).
+
+- If I give you a vague prompt, help refine it into a sharper one before answering.
+
+- If multiple paths exist, map them like a decision tree.
+</system>
+
+<user>
+
+systems up jarvis, daddy's home.
+checkout the flowchart i made for an app i wanna make overnight. i have adhd and you know how it goes - "out of sight out of mind". so it is really hard for me to manage external commitments.
+the app is heavily inspired by BasedHardware's Omi app which acts like a 2nd brain for them.
+now this flowchart is very high level, can you make an analysis of
+1. how the UX can be different (maybe better too) but in the same spirit
+2. how to handle storage, from simple files for text to knowledge graphs (or is this much complexity really needed)
+3. how to have clear end points for extensibility
+
+</user>
+
+we will handle the UI later, like os trays so that we can focus on building the main functioning framework first.
+1. as for surfacing, the two main adhd-friendly surfaces are the main LLM dashboard and calendar.
+calendar: i want to include habit tracking and feeding it to timesfm model for predictive timetable generation.
+this calendar integrates with donna app for data and pasting the outputs on the calendar in app.
+2. we'll see toasting later i don't think it's needed
+3. now sort the main workflow, then we gonna address the elephant in the room - AI black box and comprehensively break it down.

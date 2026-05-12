@@ -1,0 +1,8 @@
+qdbus6 org.kde.ActivityManager /ActivityManager/Activities ListActivities
+
+coding - 861524f9-4712-4087-92c1-9df9ef42af05
+goofing - de7fddbc-ca16-499c-9fc5-25c17bd0680a
+
+qdbus6 org.kde.ActivityManager /ActivityManager/Activities SetCurrentActivity 861524f9-4712-4087-92c1-9df9ef42af05
+
+qdbus6 org.kde.ActivityManager /ActivityManager/Activities SetCurrentActivity de7fddbc-ca16-499c-9fc5-25c17bd0680a

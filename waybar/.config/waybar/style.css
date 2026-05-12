@@ -1,0 +1,131 @@
+* {
+  font-family: 'Mononoki Nerd Font';
+  font-size: 15px;
+  font-weight: 800;
+  min-height: 0;
+  border: none;
+  border-radius: 0;
+}
+
+window#waybar {
+  /* deep near-black purple for the bar background */
+  background: rgba(15, 5, 24, 0.95);
+  color: #cc7a00;
+}
+
+/* ── workspaces ──────────────────────────────────── */
+#workspaces {
+  padding: 0 4px;
+}
+
+#workspaces button {
+  padding: 0 7px;
+  /* muted orange for inactive states */
+  color: rgba(204, 122, 0, 0.35);
+  background: transparent;
+  font-size: 10px;
+  transition: all 0.2s ease;
+}
+
+#workspaces button.active {
+  /* glowing amber for active workspace */
+  color: #ff9900;
+  font-size: 11px;
+  text-shadow: 0 0 5px rgba(255, 153, 0, 0.5);
+}
+
+#workspaces button.urgent {
+  /* brighter red-orange for urgency */
+  color: #ff4500;
+}
+
+#workspaces button:hover {
+  color: #ffcc00;
+  /* mid-tone purple armor highlight */
+  background: rgba(59, 10, 107, 0.4);
+  border-radius: 4px;
+}
+
+/* ── window title ────────────────────────────────── */
+#window {
+  /* subtle muted orange title */
+  color: rgba(204, 122, 0, 0.6);
+  font-weight: 300;
+  padding: 0 10px;
+}
+
+/* ── clock ───────────────────────────────────────── */
+#clock {
+  /* clear amber for time */
+  color: #ff9900;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  padding: 0 14px;
+}
+
+/* ── right modules shared ───────────────────────── */
+#pulseaudio,
+#network,
+#battery,
+#tray,
+#custom-power {
+  padding: 0 11px;
+  color: rgba(255, 153, 0, 0.75);
+  transition: color 0.2s;
+}
+
+#pulseaudio:hover,
+#network:hover,
+#custom-power:hover {
+  color: #ffcc00;
+}
+
+#pulseaudio.muted {
+  /* dark purple for muted state */
+  color: #3b0a6b;
+}
+
+/* ── battery states ──────────────────────────────── */
+#battery.warning {
+  color: #ff9900;
+}
+
+#battery.critical {
+  color: #ff4500;
+  animation: blink 1.2s step-start infinite;
+}
+
+#battery.charging {
+  /* golden amber for charging */
+  color: #ffcc00;
+}
+
+@keyframes blink {
+  50% { color: transparent; }
+}
+
+/* ── tray ────────────────────────────────────────── */
+#tray > .passive { -gtk-icon-effect: dim; }
+#tray > .needs-attention { -gtk-icon-effect: highlight; }
+
+/* ── power button ────────────────────────────────── */
+#custom-power {
+  font-size: 15px;
+  /* aggressive glowing orange-red */
+  color: rgba(255, 69, 0, 0.8);
+  padding-right: 14px;
+}
+
+#custom-power:hover {
+  color: #ff4500;
+}
+
+#custom-dimland {
+  padding: 0 11px;
+  color: rgba(255, 153, 0, 0.75);
+  transition: color 0.2s;
+}
+
+#custom-dimland:hover {
+  color: #ffcc00;
+}

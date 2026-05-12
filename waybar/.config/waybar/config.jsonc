@@ -1,0 +1,91 @@
+{
+    "layer": "top",
+    "position": "top",
+    "height": 30,
+    "margin-top": 0,
+    "margin-left": 0,
+    "margin-right": 0,
+    "spacing": 0,
+    "modules-left": ["niri/workspaces"],
+    "modules-center": ["niri/window"],
+    "modules-right": [
+        "pulseaudio",
+        "custom/dimland",
+        "network",
+        "battery",
+        "tray",
+        "clock",
+        "custom/power"
+    ],
+
+    "niri/workspaces": {
+        "format": "{icon}",
+        "format-icons": {
+            "active": "●",
+            "default": "○",
+            "urgent": "◉"
+        }
+    },
+
+    "niri/window": {
+        "max-length": 45,
+        "format": "  {}",
+        "separate-outputs": true
+    },
+
+    "clock": {
+        "format": "  {:%B %e | %I:%M %p}",
+        "format-alt": "  {:%a, %d %b %Y}",
+        "tooltip-format": "<tt>{calendar}</tt>",
+        "on-click": "mode"
+    },
+
+    "pulseaudio": {
+        "format": "{icon} {volume}%",
+        "format-muted": "󰝟",
+        "format-icons": { "default": ["󰕿", "󰖀", "󰕾"] },
+        "on-click": "pavucontrol",
+        "scroll-step": 5
+    },
+
+    "network": {
+        "format-wifi": "  {signalStrength}%",
+        "format-ethernet": "󰈀",
+        "format-disconnected": "󰤭",
+        "tooltip-format-wifi": "{essid} — {signalStrength}%\n {bandwidthDownBytes}  {bandwidthUpBytes}",
+        "tooltip-format-ethernet": "{ifname}: {ipaddr}",
+        "interval": 5
+    },
+
+    "battery": {
+        "format": "{icon} {capacity}%",
+        "format-charging": "󰂄 {capacity}%",
+        "format-plugged": "󰚥 {capacity}%",
+        "format-icons": ["󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"],
+        "states": { "warning": 30, "critical": 15 },
+        "interval": 30
+    },
+
+    "tray": {
+        "icon-size": 16,
+        "spacing": 8
+    },
+
+    "custom/power": {
+        "format": "⏻",
+        "on-click": "~/.config/waybar/power_menu.sh",
+        "tooltip": false
+    },
+
+    "custom/dimland": {
+        "format": "{icon} {text}",
+        "return-type": "json",
+        "exec": "~/.config/waybar/dimland.sh",
+        "interval": 2,
+        "format-icons": ["󰃞", "󰃝", "󰃟", "󰃠"],
+        "on-click": "pkill dimland",
+        "on-scroll-up": "~/.config/waybar/dimland.sh up",
+        "on-scroll-down": "~/.config/waybar/dimland.sh down",
+        "tooltip": false
+    }
+}

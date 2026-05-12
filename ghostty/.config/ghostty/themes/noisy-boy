@@ -1,0 +1,37 @@
+background = 5a0273
+foreground = f2b705
+cursor-color = d95204
+selection-background = 73265e
+selection-foreground = f2b705
+
+# black
+palette = 0=#5a0273
+palette = 8=#73265e
+
+# red (using the burnt orange)
+palette = 1=#d95204
+palette = 9=#d95204
+
+# green (using the bright orange)
+palette = 2=#f28705
+palette = 10=#f28705
+
+# yellow (using the golden yellow)
+palette = 3=#f2b705
+palette = 11=#f2b705
+
+# blue (using the muted plum)
+palette = 4=#73265e
+palette = 12=#73265e
+
+# magenta (using the deep violet)
+palette = 5=#5a0273
+palette = 13=#5a0273
+
+# cyan (using the bright orange)
+palette = 6=#f28705
+palette = 14=#f28705
+
+# white (using the golden yellow)
+palette = 7=#f2b705
+palette = 15=#f2b705

@@ -1,0 +1,6 @@
+{
+    "lsp.server": "c=clangd",
+    "mkparents": true,
+    "tabsize": 2,
+    "tabstospaces": true
+}

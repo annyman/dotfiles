@@ -1,0 +1,14 @@
+yes just the structure. let's not build with any code yet, although if you want to explain some code part do it with snippets. the features ii want:
+1. how does anime searching work?
+1.1. if i input english name, can it make sense out of it and look for the romanji name too if english is missing?
+1.2. if i mistype the name, can you make it give suggestions?
+
+2. i also want to add a local anime tracker for this.
+2.1. an "account" is a simple file stored on disk having user data
+2.1.1. each entry has title, last completed episode, rating (optional)
+2.2. how should the UX of this tracking look like?
+2.2.1. maybe we should ask the user (a) if they wanna automatically save progress (b) ask user everytime they press quit from the anime page (in tui) if they wanna save progress
+2.2.2. then we will have 2 modes for picking up where we left off (a) just entering our app's name in the command line with flag of opening, we will play the last watched anime's next episode (from where they left off) (b) next flag will be where they can put the anime name and it will pickup from last played episode
+
+3. keep in mind that this will mostly be played with mpv and  opens an external player
+4. we want to make the ui similar to ani-cli but way more robust, but not bloated and too flashy. im repeating, it should be extremely functional oriented.

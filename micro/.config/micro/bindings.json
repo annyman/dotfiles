@@ -1,0 +1,18 @@
+{
+    "Alt-/": "lua:comment.comment",
+    "Alt-a": "lua:snippets.Accept",
+    "Alt-d": "lua:snippets.Cancel",
+    "Alt-f": "command:format",
+    "Alt-k": "command:hover",
+    "Alt-r": "command:references",
+    "Alt-s": "lua:snippets.Insert",
+    "Alt-w": "lua:snippets.Next",
+    "Ctrl-F2": "command:toggleBookmark",
+    "CtrlShift-F2": "command:clearBookmarks",
+    "CtrlSpace": "command:lspcompletion",
+    "CtrlUnderscore": "lua:comment.comment",
+    "F1": "command:cheat",
+    "F2": "command:nextBookmark",
+    "F5": "lua:wc.wordCount",
+    "Shift-F2": "command:prevBookmark"
+}
